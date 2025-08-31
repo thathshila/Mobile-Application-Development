@@ -29,7 +29,7 @@ StoryShelf is a mobile app that lets readers discover, review, and share books w
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/storyshelf.git
+   git clone (https://github.com/thathshila/Mobile-Application-Development.git)
    cd storyshelf
 
 
