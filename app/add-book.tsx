@@ -391,6 +391,8 @@
 //     </View>
 //   );
 // }
+
+
 import React, { useEffect, useState, useRef } from "react";
 import {
   View,
@@ -414,6 +416,8 @@ import {
   CameraType,
   useCameraPermissions,
 } from "expo-camera";
+import { router } from "expo-router";
+import { Ionicons } from "@expo/vector-icons";
 
 const { width } = Dimensions.get("window");
 
@@ -658,7 +662,23 @@ export default function BooksScreen() {
   return (
     <View className="flex-1 bg-violet-100">
       <ScrollView className="flex-1 px-5" showsVerticalScrollIndicator={false}>
-        <Text className="text-2xl font-extrabold text-violet-800 text-center my-5">📖 My Book Collection</Text>
+        <Text className="text-2xl font-extrabold text-violet-800 text-center my-5 pt-7">📖 My Book Collection</Text>
+
+      {/* Purple arrow in top-left */}
+        <TouchableOpacity
+          onPress={() => router.push("/")}  // or router.back() if you want back behaviour
+          style={{
+            position: "absolute",
+            top: 40,    // adjust for safe area / header height
+            left: 10,   // padding from edge
+            zIndex: 10,
+          }}
+        >
+          <Ionicons name="arrow-back" size={35} color="#7C3AED" />
+        </TouchableOpacity>
+
+
+
 
         {/* Form Section */}
         <View className="bg-white rounded-2xl p-5 mb-5 shadow-lg">
