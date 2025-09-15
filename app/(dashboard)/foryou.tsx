@@ -374,10 +374,10 @@ export default function BooksListScreen() {
     <ScrollView className="flex-1 bg-purple-50">
       <View className="pb-8">
         {/* Header */}
-        <View className="flex-row justify-between items-center px-5 pt-5 mb-5">
-          <Text className="text-3xl font-bold text-purple-800">📖 My Library</Text>
+        <View className="flex-row justify-between items-center px-5 pt-5 mb-8">
+          <Text className="text-3xl font-bold text-purple-800 pt-7">📖 My Library</Text>
            <TouchableOpacity
-            className="bg-purple-600 px-4 py-2 rounded-full"
+            className="bg-purple-600 px-4 py-2 rounded-full top-4"
             onPress={() => router.push("/add-book")} // 👈 navigate
           >
             <Text className="text-white font-bold">➕ Add Book</Text>
