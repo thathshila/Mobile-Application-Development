@@ -10,7 +10,7 @@ const Index = () => {
 
   useEffect(()=>{
     if(!loading){
-      if(user)router.replace("/home")
+      if(user)router.replace("/foryou")
       else router.replace("/login")  
     }
   },[user,loading])
