@@ -11,6 +11,7 @@ import {
 import { BookService } from "@/service/bookService";
 import { Book } from "@/types/book";
 import { auth } from "@/firebase";
+import { router } from "expo-router";
 
 interface EnhancedBook extends Book {
   coverImage?: string;
@@ -103,6 +104,16 @@ interface EnhancedBook extends Book {
 
   return (
     <View className="flex-1 bg-purple-50">
+    {/* ✅ Custom Header */}
+    <View className="bg-purple-600 pt-14 pb-5 px-5 flex-row items-center justify-between">
+      <Text className="text-white text-2xl font-bold">📚 My Library</Text>
+
+      {/* Optional arrow / menu */}
+      <TouchableOpacity onPress={() => router.push("/add-book")}>
+        <Text className="text-white text-xl">➕</Text>
+      </TouchableOpacity>
+    </View>
+    
       {books.length === 0 ? (
         <ScrollView contentContainerStyle={{ padding: 20 }}>
           {/* header here */}
