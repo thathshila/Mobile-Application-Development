@@ -17,7 +17,7 @@ interface EnhancedBook extends Book {
   description?: string;
 }
 
-export default function BooksScreen() {
+ export default function BooksScreen() {
   const userId = auth.currentUser?.uid ?? "guest";
   const [books, setBooks] = useState<EnhancedBook[]>([]);
   const [loading, setLoading] = useState(true);
