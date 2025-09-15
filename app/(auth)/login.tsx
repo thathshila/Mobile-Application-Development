@@ -75,7 +75,7 @@ const Login = () => {
     setIsLoading(true);
     await login(email, password)
       .then((res) => {
-        router.push("/home");
+        router.push("/foryou");
       })
       .catch(() => {
         Alert.alert(
