@@ -2190,7 +2190,7 @@ const SAMPLE_BOOKS: ExploreBook[] = [
     genre: "Sci-Fi",
     description: "A lone astronaut must save the earth from disaster in this incredible new science-based thriller.",
     publicRating: 4.5,
-    coverImage: "https://images-na.ssl-images-amazon.com/images/I/81q1wHL6CfL.jpg",
+    coverImage: "https://unseenlibrary.com/wp-content/uploads/2021/02/project-hail-mary-cover.jpg",
   },
   {
     id: "sample4",
@@ -2199,7 +2199,7 @@ const SAMPLE_BOOKS: ExploreBook[] = [
     genre: "Fiction",
     description: "A reclusive Hollywood icon finally tells her story to a young journalist.",
     publicRating: 4.6,
-    coverImage: "https://images-na.ssl-images-amazon.com/images/I/71D3zVJ8cFL.jpg",
+    coverImage: "https://img1.od-cdn.com/ImageType-400/0439-1/%7B42631B71-955C-447D-B942-23CD63C897F6%7DIMG400.JPG",
   },
   {
     id: "sample5",
@@ -2235,7 +2235,7 @@ const SAMPLE_BOOKS: ExploreBook[] = [
     genre: "Mystery",
     description: "A shocking psychological thriller of a woman's act of violence against her husband.",
     publicRating: 4.4,
-    coverImage: "https://images-na.ssl-images-amazon.com/images/I/71oFB+0eVfL.jpg",
+    coverImage: "https://img1.od-cdn.com/ImageType-400/2390-1/%7B1B06F42D-2233-4600-B207-7D298AA61772%7DIMG400.JPG",
   },
   {
     id: "sample9",
@@ -2244,7 +2244,7 @@ const SAMPLE_BOOKS: ExploreBook[] = [
     genre: "Fantasy",
     description: "Science fiction epic set on the desert planet Arrakis.",
     publicRating: 4.5,
-    coverImage: "https://images-na.ssl-images-amazon.com/images/I/91rU2Y9gl3L.jpg",
+    coverImage: "https://images.fathomevents.com/image/upload/w_2000,dpr_2,f_auto,q_auto/v1703794610/Events/2024/1898/Dune_1000x1480_FE_Website.jpg.jpg",
   },
   {
     id: "sample10",
@@ -2262,7 +2262,7 @@ const SAMPLE_BOOKS: ExploreBook[] = [
     genre: "Non-Fiction",
     description: "Kahneman takes us on a groundbreaking tour of the mind.",
     publicRating: 4.4,
-    coverImage: "https://images-na.ssl-images-amazon.com/images/I/71FZ+HjHqxL.jpg",
+    coverImage: "https://jumpbooks.lk/wp-content/uploads/2018/12/Thinking-Fast-and-Slow.jpg",
   },
   {
     id: "sample12",
@@ -2271,7 +2271,7 @@ const SAMPLE_BOOKS: ExploreBook[] = [
     genre: "Horror",
     description: "A classic horror novel set in an isolated hotel.",
     publicRating: 4.5,
-    coverImage: "https://images-na.ssl-images-amazon.com/images/I/81MZxR6pEQL.jpg",
+    coverImage: "https://img1.od-cdn.com/ImageType-400/0111-1/%7B8667DB9C-8D77-4118-9605-02E6EE0DC4A9%7DIMG400.JPG",
   },
   {
     id: "sample13",
@@ -2280,7 +2280,7 @@ const SAMPLE_BOOKS: ExploreBook[] = [
     genre: "Thriller",
     description: "A dark thriller about a marriage gone terribly wrong.",
     publicRating: 4.3,
-    coverImage: "https://images-na.ssl-images-amazon.com/images/I/81zIrW6PZUL.jpg",
+    coverImage: "https://miro.medium.com/1*im40tPqX4THFY1rMXfFQPw.jpeg",
   },
 ];
 
