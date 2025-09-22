@@ -4,7 +4,7 @@ import { useRouter } from 'expo-router'
 import { useAuth } from '@/context/AuthContext'
 
 const Index = () => {
-    // eslint-disable-next-line react-hooks/rules-of-hooks
+   
   const router = useRouter()
   const {user , loading} = useAuth()
 

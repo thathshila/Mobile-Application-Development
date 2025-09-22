@@ -1,4 +1,4 @@
-// types/vibe.ts
+
 import { Timestamp } from "firebase/firestore";
 
 export interface DailyReadingVibe {
