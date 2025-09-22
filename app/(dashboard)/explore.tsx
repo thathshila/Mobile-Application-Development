@@ -2348,37 +2348,6 @@ export default function ExploreScreen() {
     setShowAddModal(true);
   };
 
-  // const confirmAddBook = async () => {
-  //   if (!selectedBook || !userId || userId === "guest") {
-  //     Alert.alert("Error", "Please log in to add books to your library");
-  //     return;
-  //   }
-  //   try {
-  //     setLoading(true);
-  //     const bookData = {
-  //       title: selectedBook.title,
-  //       author: selectedBook.author,
-  //       genre: selectedBook.genre || "",
-  //       description: selectedBook.description || "",
-  //       notes: "",
-  //       readingStatus: selectedStatus,
-  //       userId,
-  //       rating: 0,
-  //       review: "",
-  //       tags: []
-  //     };
-  //     await BookService.addBook(bookData);
-  //     setShowAddModal(false);
-  //     setSelectedBook(null);
-  //     Alert.alert("Success", `"${selectedBook.title}" has been added to your library!`);
-  //     await loadMyBooks();
-  //   } catch (err) {
-  //     console.error("Error adding book:", err);
-  //     Alert.alert("Error", "Failed to add book to library. Please try again.");
-  //   } finally {
-  //     setLoading(false);
-  //   }
-  // };
   const confirmAddBook = async () => {
   if (!selectedBook || !userId || userId === "guest") {
     Alert.alert("Error", "Please log in to add books to your library");
